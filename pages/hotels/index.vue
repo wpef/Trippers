@@ -11,7 +11,7 @@
           :key="index"
           class="p-4 md:w-1/3"
         >
-          <hotel-card v-bind:hotel="hotel.fields" />
+          <HotelCard :hotel="hotel" />
         </div>
       </div>
     </div>
